@@ -1,0 +1,65 @@
+<section id="title">Cake Promise</section>
+<section id="description">
+  <div class="headline">
+    <h2>문제</h2>
+  </div>
+  <div id="problem_description" class="problem-text">
+    <p>
+      <code>2025 ICPC Asia Pacific Championship</code>에서 한국 1등, 전체 4등을
+      한 <code>DolAndDool</code> 팀의 종우는 오늘 MatKor에서 있을 ICPC 대비 레벨
+      테스트를 위해 선물을 준비했습니다. 종우는 레벨 테스트에서 자신을 이긴 있는
+      모든 팀에게 선물을 주겠다고 약속했습니다. 레벨 테스트가 끝난 후 종우는
+      스코어보드의 사본을 받게 되었는데, 이 사본은 팀들의 순서가 섞여있습니다.
+      종우는 대회에서 몇 개의 팀이 자신을 이겼는 지 계산하는 프로그램이
+      필요합니다.
+    </p>
+
+    <p>
+      대회는 주어진 수의 문제를 각 팀이 가능한 빠르게 풀어야 합니다. 대회의
+      순위는 다음과 같이 정해집니다.
+    </p>
+    <ul>
+      <li>문제를 더 많이 푼 팀이 더 높은 순위를 가집니다.</li>
+      <li>
+        푼 문제의 수가 같은 경우, 각 문제별 푼 시간의 합이 더 작은 팀이 더 높은
+        순위를 가집니다.
+      </li>
+    </ul>
+    <p>
+      종우는 자신과 푼 문제의 수와 시간이 <em>모두</em> 같은 팀에게도 선물을
+      주기로 했습니다.
+    </p>
+  </div>
+</section>
+<section id="input">
+  <div class="headline">
+    <h2>입력</h2>
+  </div>
+  <div id="problem_input" class="problem-text">
+    <p>입력은 다음과 같습니다.</p>
+
+    <ul>
+      <li>
+        첫 번째 줄에 두 개의 정수 $t$와 $p$ ($2\leq t, p\leq 1000$)가
+        주어집니다. $t$는 참가하는 팀의 수, $p$는 문제의 수입니다. 종우는
+        $t$개의 팀 중 하나입니다.
+      </li>
+
+      <li>
+        이어지는 $t$개의 줄에 $p$개의 값이 주어집니다. 각 줄은 한 팀의 결과를
+        나타내며, 첫 번째 줄은 종우의 결과입니다. 각 줄은 $1$번부터 $p$번
+        문제까지 차례로 문제를 풀지 못한 경우 &quot;<code>X</code>&quot;, 문제를
+        풀었을 경우 그 문제를 푸는데 걸린 시간을 나타내는 정수 $r$ ($1\leq r\leq
+        10^6$)로 이루어져 있습니다.
+      </li>
+    </ul>
+  </div>
+</section>
+<section id="output">
+  <div class="headline">
+    <h2>출력</h2>
+  </div>
+  <div id="problem_output" class="problem-text">
+    <p>종우가 선물을 줄 팀의 수를 출력합니다.</p>
+  </div>
+</section>
